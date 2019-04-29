@@ -33,7 +33,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     func playSound() {
         
-        let soundURL = Bundle.main.url(forResource: selectedSoundFileName, withExtension: "wav")
+        let soundURL = Bundle.main.url(forResource: selectedSoundFileName, withExtension: "mp3")
         
         do{
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
