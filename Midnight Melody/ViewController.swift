@@ -13,7 +13,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var audioPlayer : AVAudioPlayer!
     
-    let soundArray = ["note1", "note2", "note3", "note5", "note6"]
+    let soundArray = ["note1", "note2", "note3", "note4", "note5"]
     
     var selectedSoundFileName = ""
 
@@ -25,15 +25,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         selectedSoundFileName = soundArray[sender.tag - 1]
         
-        print(selectedSoundFileName)
-        
         playSound()
         
     }
     
     func playSound() {
         
-        let soundURL = Bundle.main.url(forResource: selectedSoundFileName, withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: selectedSoundFileName, withExtension: "caf")
         
         do{
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
