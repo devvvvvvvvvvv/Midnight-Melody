@@ -8,30 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		6714ED842272812500A307C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6714ED832272812500A307C9 /* AppDelegate.swift */; };
-		6714ED862272812500A307C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6714ED852272812500A307C9 /* ViewController.swift */; };
+		6714ED862272812500A307C9 /* FairyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6714ED852272812500A307C9 /* FairyViewController.swift */; };
 		6714ED892272812500A307C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6714ED872272812500A307C9 /* Main.storyboard */; };
 		6714ED8B2272812800A307C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6714ED8A2272812800A307C9 /* Assets.xcassets */; };
 		6714ED8E2272812800A307C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6714ED8C2272812800A307C9 /* LaunchScreen.storyboard */; };
-		67F42E5C22777F0E0049F620 /* note5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5722777F0E0049F620 /* note5.caf */; };
-		67F42E5D22777F0E0049F620 /* note2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5822777F0E0049F620 /* note2.caf */; };
-		67F42E5E22777F0E0049F620 /* note3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5922777F0E0049F620 /* note3.caf */; };
-		67F42E5F22777F0E0049F620 /* note1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5A22777F0E0049F620 /* note1.caf */; };
-		67F42E6022777F0E0049F620 /* note4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5B22777F0E0049F620 /* note4.caf */; };
+		67F42E5C22777F0E0049F620 /* fairy5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5722777F0E0049F620 /* fairy5.caf */; };
+		67F42E5D22777F0E0049F620 /* fairy2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5822777F0E0049F620 /* fairy2.caf */; };
+		67F42E5E22777F0E0049F620 /* fairy3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5922777F0E0049F620 /* fairy3.caf */; };
+		67F42E5F22777F0E0049F620 /* fairy1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5A22777F0E0049F620 /* fairy1.caf */; };
+		67F42E6022777F0E0049F620 /* fairy4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E5B22777F0E0049F620 /* fairy4.caf */; };
+		67F42E6222779F4A0049F620 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F42E6122779F4A0049F620 /* SpaceViewController.swift */; };
+		67F42E6A2277ADF50049F620 /* space1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E652277ADF50049F620 /* space1.caf */; };
+		67F42E6B2277ADF50049F620 /* space2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E662277ADF50049F620 /* space2.caf */; };
+		67F42E6C2277ADF50049F620 /* space3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E672277ADF50049F620 /* space3.caf */; };
+		67F42E6D2277ADF50049F620 /* space4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E682277ADF50049F620 /* space4.caf */; };
+		67F42E6E2277ADF50049F620 /* space5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E692277ADF50049F620 /* space5.caf */; };
+		67F42E752277AE040049F620 /* ocean1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E702277AE040049F620 /* ocean1.caf */; };
+		67F42E762277AE040049F620 /* ocean2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E712277AE040049F620 /* ocean2.caf */; };
+		67F42E772277AE040049F620 /* ocean3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E722277AE040049F620 /* ocean3.caf */; };
+		67F42E782277AE040049F620 /* ocean4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E732277AE040049F620 /* ocean4.caf */; };
+		67F42E792277AE040049F620 /* ocean5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 67F42E742277AE040049F620 /* ocean5.caf */; };
+		67F42E7B2277EBAC0049F620 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F42E7A2277EBAC0049F620 /* ScrollViewController.swift */; };
+		67F42E7D2277FAFB0049F620 /* OceanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F42E7C2277FAFB0049F620 /* OceanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6714ED802272812500A307C9 /* Midnight Melody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midnight Melody.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6714ED832272812500A307C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6714ED852272812500A307C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6714ED852272812500A307C9 /* FairyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairyViewController.swift; sourceTree = "<group>"; };
 		6714ED882272812500A307C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6714ED8A2272812800A307C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6714ED8D2272812800A307C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6714ED8F2272812800A307C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67F42E5722777F0E0049F620 /* note5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = note5.caf; sourceTree = "<group>"; };
-		67F42E5822777F0E0049F620 /* note2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = note2.caf; sourceTree = "<group>"; };
-		67F42E5922777F0E0049F620 /* note3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = note3.caf; sourceTree = "<group>"; };
-		67F42E5A22777F0E0049F620 /* note1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = note1.caf; sourceTree = "<group>"; };
-		67F42E5B22777F0E0049F620 /* note4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = note4.caf; sourceTree = "<group>"; };
+		67F42E5722777F0E0049F620 /* fairy5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fairy5.caf; sourceTree = "<group>"; };
+		67F42E5822777F0E0049F620 /* fairy2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fairy2.caf; sourceTree = "<group>"; };
+		67F42E5922777F0E0049F620 /* fairy3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fairy3.caf; sourceTree = "<group>"; };
+		67F42E5A22777F0E0049F620 /* fairy1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fairy1.caf; sourceTree = "<group>"; };
+		67F42E5B22777F0E0049F620 /* fairy4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fairy4.caf; sourceTree = "<group>"; };
+		67F42E6122779F4A0049F620 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
+		67F42E652277ADF50049F620 /* space1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = space1.caf; sourceTree = "<group>"; };
+		67F42E662277ADF50049F620 /* space2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = space2.caf; sourceTree = "<group>"; };
+		67F42E672277ADF50049F620 /* space3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = space3.caf; sourceTree = "<group>"; };
+		67F42E682277ADF50049F620 /* space4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = space4.caf; sourceTree = "<group>"; };
+		67F42E692277ADF50049F620 /* space5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = space5.caf; sourceTree = "<group>"; };
+		67F42E702277AE040049F620 /* ocean1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean1.caf; sourceTree = "<group>"; };
+		67F42E712277AE040049F620 /* ocean2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean2.caf; sourceTree = "<group>"; };
+		67F42E722277AE040049F620 /* ocean3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean3.caf; sourceTree = "<group>"; };
+		67F42E732277AE040049F620 /* ocean4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean4.caf; sourceTree = "<group>"; };
+		67F42E742277AE040049F620 /* ocean5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean5.caf; sourceTree = "<group>"; };
+		67F42E7A2277EBAC0049F620 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		67F42E7C2277FAFB0049F620 /* OceanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				6714ED832272812500A307C9 /* AppDelegate.swift */,
-				6714ED852272812500A307C9 /* ViewController.swift */,
+				67F42E7A2277EBAC0049F620 /* ScrollViewController.swift */,
+				6714ED852272812500A307C9 /* FairyViewController.swift */,
+				67F42E6122779F4A0049F620 /* SpaceViewController.swift */,
+				67F42E7C2277FAFB0049F620 /* OceanViewController.swift */,
 				6714ED872272812500A307C9 /* Main.storyboard */,
 				6714ED8A2272812800A307C9 /* Assets.xcassets */,
 				6714ED8C2272812800A307C9 /* LaunchScreen.storyboard */,
@@ -78,13 +107,47 @@
 		679C0C542277753D00AA28D7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				67F42E5A22777F0E0049F620 /* note1.caf */,
-				67F42E5822777F0E0049F620 /* note2.caf */,
-				67F42E5922777F0E0049F620 /* note3.caf */,
-				67F42E5B22777F0E0049F620 /* note4.caf */,
-				67F42E5722777F0E0049F620 /* note5.caf */,
+				67F42E6F2277AE040049F620 /* Underwater */,
+				67F42E642277ADF50049F620 /* Space */,
+				67F42E632277ADD10049F620 /* Fairy */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		67F42E632277ADD10049F620 /* Fairy */ = {
+			isa = PBXGroup;
+			children = (
+				67F42E5A22777F0E0049F620 /* fairy1.caf */,
+				67F42E5822777F0E0049F620 /* fairy2.caf */,
+				67F42E5922777F0E0049F620 /* fairy3.caf */,
+				67F42E5B22777F0E0049F620 /* fairy4.caf */,
+				67F42E5722777F0E0049F620 /* fairy5.caf */,
+			);
+			path = Fairy;
+			sourceTree = "<group>";
+		};
+		67F42E642277ADF50049F620 /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				67F42E652277ADF50049F620 /* space1.caf */,
+				67F42E662277ADF50049F620 /* space2.caf */,
+				67F42E672277ADF50049F620 /* space3.caf */,
+				67F42E682277ADF50049F620 /* space4.caf */,
+				67F42E692277ADF50049F620 /* space5.caf */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
+		67F42E6F2277AE040049F620 /* Underwater */ = {
+			isa = PBXGroup;
+			children = (
+				67F42E702277AE040049F620 /* ocean1.caf */,
+				67F42E712277AE040049F620 /* ocean2.caf */,
+				67F42E722277AE040049F620 /* ocean3.caf */,
+				67F42E732277AE040049F620 /* ocean4.caf */,
+				67F42E742277AE040049F620 /* ocean5.caf */,
+			);
+			path = Underwater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,13 +208,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F42E5E22777F0E0049F620 /* note3.caf in Resources */,
-				67F42E5F22777F0E0049F620 /* note1.caf in Resources */,
-				67F42E5C22777F0E0049F620 /* note5.caf in Resources */,
-				67F42E6022777F0E0049F620 /* note4.caf in Resources */,
+				67F42E792277AE040049F620 /* ocean5.caf in Resources */,
+				67F42E6A2277ADF50049F620 /* space1.caf in Resources */,
+				67F42E5E22777F0E0049F620 /* fairy3.caf in Resources */,
+				67F42E5F22777F0E0049F620 /* fairy1.caf in Resources */,
+				67F42E762277AE040049F620 /* ocean2.caf in Resources */,
+				67F42E6D2277ADF50049F620 /* space4.caf in Resources */,
+				67F42E6B2277ADF50049F620 /* space2.caf in Resources */,
+				67F42E5C22777F0E0049F620 /* fairy5.caf in Resources */,
+				67F42E6022777F0E0049F620 /* fairy4.caf in Resources */,
+				67F42E6C2277ADF50049F620 /* space3.caf in Resources */,
+				67F42E782277AE040049F620 /* ocean4.caf in Resources */,
+				67F42E752277AE040049F620 /* ocean1.caf in Resources */,
+				67F42E772277AE040049F620 /* ocean3.caf in Resources */,
 				6714ED8E2272812800A307C9 /* LaunchScreen.storyboard in Resources */,
 				6714ED8B2272812800A307C9 /* Assets.xcassets in Resources */,
-				67F42E5D22777F0E0049F620 /* note2.caf in Resources */,
+				67F42E5D22777F0E0049F620 /* fairy2.caf in Resources */,
+				67F42E6E2277ADF50049F620 /* space5.caf in Resources */,
 				6714ED892272812500A307C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,8 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6714ED862272812500A307C9 /* ViewController.swift in Sources */,
+				67F42E6222779F4A0049F620 /* SpaceViewController.swift in Sources */,
+				6714ED862272812500A307C9 /* FairyViewController.swift in Sources */,
+				67F42E7D2277FAFB0049F620 /* OceanViewController.swift in Sources */,
 				6714ED842272812500A307C9 /* AppDelegate.swift in Sources */,
+				67F42E7B2277EBAC0049F620 /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
